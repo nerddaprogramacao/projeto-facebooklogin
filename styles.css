@@ -144,7 +144,7 @@ h2 {
     position: relative;
     text-decoration: none;
     text-align: center;
-    margin-top: 5px;
+    margin-top: -25px;
     white-space: pre-line;
     text-decoration: none;
     left: 7%;
@@ -264,6 +264,52 @@ h2 {
         font-weight: bold; /* Opcional para destacar */
     }
 
+
+    .button,
+    .new {
+        height: 40px;
+        font-size: 13px;
+    }
+}
+@media (min-width: 320px) and (max-width: 659px) {
+    .logoFAc {
+        width: 270px;
+        height: 150px;
+        margin-bottom: -80%;
+    }
+
+    .caixinha {
+        width: 90%;
+        height: auto;
+        padding: 42px 20px;
+        margin-top: 150px;
+        top: -5%;
+    }
+
+    .sh,
+    .em {
+        height: 48px;
+        font-size: 14px;
+    }
+
+    .h4 {
+        font-size: 18px;
+        margin: 28px 0 0;
+        position: relative;
+        bottom: 40px;
+        color: #1c1e21;
+        font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+        font-weight: normal;
+        text-align: center;
+        left: 0%;
+        text-decoration: none;
+    }
+
+    .h4 a {
+        text-decoration: none;
+        color: #1877f2;
+        font-weight: bold;
+    }
 
     .button,
     .new {
