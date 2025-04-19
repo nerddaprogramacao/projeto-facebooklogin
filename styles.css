@@ -273,17 +273,18 @@ h2 {
 }
 @media (min-width: 320px) and (max-width: 659px) {
     .logoFAc {
-        width: 270px;
-        height: 150px;
-        margin-bottom: -80%;
+        width: 370px;
+        height: 220px;
+        margin-bottom: -20%;
+        margin-top: -220px;
     }
 
     .caixinha {
         width: 90%;
-        height: auto;
+        height: 90%;
         padding: 42px 20px;
         margin-top: 150px;
-        top: -5%;
+        top: -85%;
     }
 
     .sh,
@@ -294,16 +295,17 @@ h2 {
 
     .h4 {
         font-size: 18px;
-        margin: 28px 0 0;
-        position: relative;
-        bottom: 40px;
+        margin-top: -10px; /* aproxima da caixinha */
+        margin-bottom: 20px;
         color: #1c1e21;
         font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
         font-weight: normal;
         text-align: center;
-        left: 0%;
         text-decoration: none;
+        position: static; /* garante que não vai flutuar */
+        margin-top: -200px;
     }
+    
 
     .h4 a {
         text-decoration: none;
