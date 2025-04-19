@@ -273,8 +273,8 @@ h2 {
 }
 @media (min-width: 320px) and (max-width: 659px) {
     .logoFAc {
-        width: 370px;
-        height: 220px;
+        width: 350px;
+        height: 200px;
         margin-bottom: -20%;
         margin-top: -220px;
     }
@@ -284,7 +284,7 @@ h2 {
         height: 90%;
         padding: 42px 20px;
         margin-top: 150px;
-        top: -85%;
+        top: -90%;
     }
 
     .sh,
@@ -303,7 +303,7 @@ h2 {
         text-align: center;
         text-decoration: none;
         position: static; /* garante que não vai flutuar */
-        margin-top: -200px;
+        margin-top: -230px;
     }
     
 
